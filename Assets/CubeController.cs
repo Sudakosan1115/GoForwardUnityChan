@@ -32,7 +32,7 @@ public class CubeController : MonoBehaviour
     }
 
     // キューブが衝突したら音を出す。
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("(・∀・)ｲｲ!!");
         // Cubeに接触したら、音が出る。
